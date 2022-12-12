@@ -1,0 +1,9 @@
+.hero-title {
+  color: rgb(102, 46, 109);
+  -webkit-text-stroke: .03em #444;
+
+  font-size: $h1-font-size * 1.2;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  margin: 0;
+}

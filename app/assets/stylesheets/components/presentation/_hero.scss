@@ -1,0 +1,12 @@
+.hero {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: rgb(239, 227, 229);
+  color: rgb(98, 17, 108);
+
+  padding: 4rem 0;
+
+  &__container {
+    @extend %section-spacings;
+    display: flex;
+  }
+}
